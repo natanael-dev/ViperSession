@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A21D6D3C293850AA0051E423 /* DetailEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21D6D28293850AA0051E423 /* DetailEntity.swift */; };
+		A21D6D3D293850AA0051E423 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21D6D29293850AA0051E423 /* DetailViewController.swift */; };
+		A21D6D3E293850AA0051E423 /* DetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21D6D2A293850AA0051E423 /* DetailPresenter.swift */; };
+		A21D6D3F293850AA0051E423 /* DetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21D6D2B293850AA0051E423 /* DetailInteractor.swift */; };
+		A21D6D40293850AA0051E423 /* DetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21D6D2C293850AA0051E423 /* DetailRouter.swift */; };
+		A21D6D41293850AA0051E423 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A21D6D2D293850AA0051E423 /* DetailViewController.xib */; };
+		A21D6D42293850AA0051E423 /* ListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A21D6D2F293850AA0051E423 /* ListViewController.xib */; };
+		A21D6D43293850AA0051E423 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21D6D30293850AA0051E423 /* ListViewController.swift */; };
+		A21D6D44293850AA0051E423 /* ListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21D6D31293850AA0051E423 /* ListInteractor.swift */; };
+		A21D6D45293850AA0051E423 /* ListEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21D6D32293850AA0051E423 /* ListEntity.swift */; };
+		A21D6D46293850AA0051E423 /* ListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21D6D33293850AA0051E423 /* ListPresenter.swift */; };
+		A21D6D47293850AA0051E423 /* PokemonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A21D6D35293850AA0051E423 /* PokemonTableViewCell.xib */; };
+		A21D6D48293850AA0051E423 /* PokemonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21D6D36293850AA0051E423 /* PokemonTableViewCell.swift */; };
+		A21D6D49293850AA0051E423 /* ListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21D6D37293850AA0051E423 /* ListRouter.swift */; };
+		A21D6D4A293850AA0051E423 /* LottieProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21D6D39293850AA0051E423 /* LottieProgress.swift */; };
+		A21D6D4B293850AA0051E423 /* pokeball.json in Resources */ = {isa = PBXBuildFile; fileRef = A21D6D3A293850AA0051E423 /* pokeball.json */; };
+		A21D6D4C293850AA0051E423 /* PokemonAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21D6D3B293850AA0051E423 /* PokemonAPI.swift */; };
+		A21D6D50293857860051E423 /* ViperSession.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A21D6D4F293857860051E423 /* ViperSession.jpeg */; };
+		A2F57F042936CB96005F0984 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F57F032936CB96005F0984 /* AppDelegate.swift */; };
+		A2F57F062936CB96005F0984 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F57F052936CB96005F0984 /* SceneDelegate.swift */; };
+		A2F57F0B2936CB96005F0984 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2F57F092936CB96005F0984 /* Main.storyboard */; };
+		A2F57F0D2936CB98005F0984 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2F57F0C2936CB98005F0984 /* Assets.xcassets */; };
+		A2F57F102936CB98005F0984 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2F57F0E2936CB98005F0984 /* LaunchScreen.storyboard */; };
+		A2F57F192936CBE2005F0984 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = A2F57F182936CBE2005F0984 /* Lottie */; };
+		A2F57F1C2936CCAF005F0984 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = A2F57F1B2936CCAF005F0984 /* Alamofire */; };
+		A2F57F2F2936E13B005F0984 /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = A2F57F2E2936E13B005F0984 /* AlamofireImage */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A21D6D28293850AA0051E423 /* DetailEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailEntity.swift; sourceTree = "<group>"; };
+		A21D6D29293850AA0051E423 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		A21D6D2A293850AA0051E423 /* DetailPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailPresenter.swift; sourceTree = "<group>"; };
+		A21D6D2B293850AA0051E423 /* DetailInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailInteractor.swift; sourceTree = "<group>"; };
+		A21D6D2C293850AA0051E423 /* DetailRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailRouter.swift; sourceTree = "<group>"; };
+		A21D6D2D293850AA0051E423 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		A21D6D2F293850AA0051E423 /* ListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListViewController.xib; sourceTree = "<group>"; };
+		A21D6D30293850AA0051E423 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		A21D6D31293850AA0051E423 /* ListInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListInteractor.swift; sourceTree = "<group>"; };
+		A21D6D32293850AA0051E423 /* ListEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListEntity.swift; sourceTree = "<group>"; };
+		A21D6D33293850AA0051E423 /* ListPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListPresenter.swift; sourceTree = "<group>"; };
+		A21D6D35293850AA0051E423 /* PokemonTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PokemonTableViewCell.xib; sourceTree = "<group>"; };
+		A21D6D36293850AA0051E423 /* PokemonTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonTableViewCell.swift; sourceTree = "<group>"; };
+		A21D6D37293850AA0051E423 /* ListRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListRouter.swift; sourceTree = "<group>"; };
+		A21D6D39293850AA0051E423 /* LottieProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LottieProgress.swift; sourceTree = "<group>"; };
+		A21D6D3A293850AA0051E423 /* pokeball.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pokeball.json; sourceTree = "<group>"; };
+		A21D6D3B293850AA0051E423 /* PokemonAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonAPI.swift; sourceTree = "<group>"; };
+		A21D6D4F293857860051E423 /* ViperSession.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ViperSession.jpeg; sourceTree = "<group>"; };
+		A2F57F002936CB96005F0984 /* ViperSession.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViperSession.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2F57F032936CB96005F0984 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A2F57F052936CB96005F0984 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A2F57F0A2936CB96005F0984 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2F57F0C2936CB98005F0984 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2F57F0F2936CB98005F0984 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A2F57F112936CB98005F0984 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2F57EFD2936CB96005F0984 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2F57F192936CBE2005F0984 /* Lottie in Frameworks */,
+				A2F57F1C2936CCAF005F0984 /* Alamofire in Frameworks */,
+				A2F57F2F2936E13B005F0984 /* AlamofireImage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A21D6D26293850AA0051E423 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				A21D6D27293850AA0051E423 /* DetailModule */,
+				A21D6D2E293850AA0051E423 /* ListModule */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		A21D6D27293850AA0051E423 /* DetailModule */ = {
+			isa = PBXGroup;
+			children = (
+				A21D6D28293850AA0051E423 /* DetailEntity.swift */,
+				A21D6D29293850AA0051E423 /* DetailViewController.swift */,
+				A21D6D2A293850AA0051E423 /* DetailPresenter.swift */,
+				A21D6D2B293850AA0051E423 /* DetailInteractor.swift */,
+				A21D6D2C293850AA0051E423 /* DetailRouter.swift */,
+				A21D6D2D293850AA0051E423 /* DetailViewController.xib */,
+			);
+			path = DetailModule;
+			sourceTree = "<group>";
+		};
+		A21D6D2E293850AA0051E423 /* ListModule */ = {
+			isa = PBXGroup;
+			children = (
+				A21D6D34293850AA0051E423 /* Cell */,
+				A21D6D2F293850AA0051E423 /* ListViewController.xib */,
+				A21D6D30293850AA0051E423 /* ListViewController.swift */,
+				A21D6D31293850AA0051E423 /* ListInteractor.swift */,
+				A21D6D32293850AA0051E423 /* ListEntity.swift */,
+				A21D6D33293850AA0051E423 /* ListPresenter.swift */,
+				A21D6D37293850AA0051E423 /* ListRouter.swift */,
+			);
+			path = ListModule;
+			sourceTree = "<group>";
+		};
+		A21D6D34293850AA0051E423 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A21D6D35293850AA0051E423 /* PokemonTableViewCell.xib */,
+				A21D6D36293850AA0051E423 /* PokemonTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		A21D6D38293850AA0051E423 /* Tools+Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A21D6D4F293857860051E423 /* ViperSession.jpeg */,
+				A21D6D39293850AA0051E423 /* LottieProgress.swift */,
+				A21D6D3A293850AA0051E423 /* pokeball.json */,
+				A21D6D3B293850AA0051E423 /* PokemonAPI.swift */,
+			);
+			path = "Tools+Resources";
+			sourceTree = "<group>";
+		};
+		A2F57EF72936CB96005F0984 = {
+			isa = PBXGroup;
+			children = (
+				A2F57F022936CB96005F0984 /* ViperSession */,
+				A2F57F012936CB96005F0984 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2F57F012936CB96005F0984 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2F57F002936CB96005F0984 /* ViperSession.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2F57F022936CB96005F0984 /* ViperSession */ = {
+			isa = PBXGroup;
+			children = (
+				A21D6D26293850AA0051E423 /* Modules */,
+				A21D6D38293850AA0051E423 /* Tools+Resources */,
+				A2F57F032936CB96005F0984 /* AppDelegate.swift */,
+				A2F57F052936CB96005F0984 /* SceneDelegate.swift */,
+				A2F57F092936CB96005F0984 /* Main.storyboard */,
+				A2F57F0C2936CB98005F0984 /* Assets.xcassets */,
+				A2F57F0E2936CB98005F0984 /* LaunchScreen.storyboard */,
+				A2F57F112936CB98005F0984 /* Info.plist */,
+			);
+			path = ViperSession;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2F57EFF2936CB96005F0984 /* ViperSession */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2F57F142936CB98005F0984 /* Build configuration list for PBXNativeTarget "ViperSession" */;
+			buildPhases = (
+				A2F57EFC2936CB96005F0984 /* Sources */,
+				A2F57EFD2936CB96005F0984 /* Frameworks */,
+				A2F57EFE2936CB96005F0984 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ViperSession;
+			packageProductDependencies = (
+				A2F57F182936CBE2005F0984 /* Lottie */,
+				A2F57F1B2936CCAF005F0984 /* Alamofire */,
+				A2F57F2E2936E13B005F0984 /* AlamofireImage */,
+			);
+			productName = ViperSession;
+			productReference = A2F57F002936CB96005F0984 /* ViperSession.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2F57EF82936CB96005F0984 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					A2F57EFF2936CB96005F0984 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = A2F57EFB2936CB96005F0984 /* Build configuration list for PBXProject "ViperSession" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2F57EF72936CB96005F0984;
+			packageReferences = (
+				A2F57F172936CBE2005F0984 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				A2F57F1A2936CCAF005F0984 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				A2F57F2D2936E13B005F0984 /* XCRemoteSwiftPackageReference "AlamofireImage" */,
+			);
+			productRefGroup = A2F57F012936CB96005F0984 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2F57EFF2936CB96005F0984 /* ViperSession */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2F57EFE2936CB96005F0984 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2F57F102936CB98005F0984 /* LaunchScreen.storyboard in Resources */,
+				A21D6D42293850AA0051E423 /* ListViewController.xib in Resources */,
+				A21D6D47293850AA0051E423 /* PokemonTableViewCell.xib in Resources */,
+				A21D6D41293850AA0051E423 /* DetailViewController.xib in Resources */,
+				A2F57F0D2936CB98005F0984 /* Assets.xcassets in Resources */,
+				A2F57F0B2936CB96005F0984 /* Main.storyboard in Resources */,
+				A21D6D4B293850AA0051E423 /* pokeball.json in Resources */,
+				A21D6D50293857860051E423 /* ViperSession.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2F57EFC2936CB96005F0984 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A21D6D3D293850AA0051E423 /* DetailViewController.swift in Sources */,
+				A21D6D4C293850AA0051E423 /* PokemonAPI.swift in Sources */,
+				A21D6D48293850AA0051E423 /* PokemonTableViewCell.swift in Sources */,
+				A21D6D4A293850AA0051E423 /* LottieProgress.swift in Sources */,
+				A21D6D40293850AA0051E423 /* DetailRouter.swift in Sources */,
+				A21D6D44293850AA0051E423 /* ListInteractor.swift in Sources */,
+				A21D6D49293850AA0051E423 /* ListRouter.swift in Sources */,
+				A2F57F042936CB96005F0984 /* AppDelegate.swift in Sources */,
+				A21D6D43293850AA0051E423 /* ListViewController.swift in Sources */,
+				A21D6D46293850AA0051E423 /* ListPresenter.swift in Sources */,
+				A21D6D45293850AA0051E423 /* ListEntity.swift in Sources */,
+				A2F57F062936CB96005F0984 /* SceneDelegate.swift in Sources */,
+				A21D6D3F293850AA0051E423 /* DetailInteractor.swift in Sources */,
+				A21D6D3C293850AA0051E423 /* DetailEntity.swift in Sources */,
+				A21D6D3E293850AA0051E423 /* DetailPresenter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A2F57F092936CB96005F0984 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2F57F0A2936CB96005F0984 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A2F57F0E2936CB98005F0984 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2F57F0F2936CB98005F0984 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2F57F122936CB98005F0984 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A2F57F132936CB98005F0984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2F57F152936CB98005F0984 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7XF4SXN2RG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ViperSession/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.natanael.dev.ViperSession;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2F57F162936CB98005F0984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7XF4SXN2RG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ViperSession/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.natanael.dev.ViperSession;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2F57EFB2936CB96005F0984 /* Build configuration list for PBXProject "ViperSession" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2F57F122936CB98005F0984 /* Debug */,
+				A2F57F132936CB98005F0984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2F57F142936CB98005F0984 /* Build configuration list for PBXNativeTarget "ViperSession" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2F57F152936CB98005F0984 /* Debug */,
+				A2F57F162936CB98005F0984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A2F57F172936CBE2005F0984 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		A2F57F1A2936CCAF005F0984 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		A2F57F2D2936E13B005F0984 /* XCRemoteSwiftPackageReference "AlamofireImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/AlamofireImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A2F57F182936CBE2005F0984 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A2F57F172936CBE2005F0984 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+		A2F57F1B2936CCAF005F0984 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A2F57F1A2936CCAF005F0984 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		A2F57F2E2936E13B005F0984 /* AlamofireImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A2F57F2D2936E13B005F0984 /* XCRemoteSwiftPackageReference "AlamofireImage" */;
+			productName = AlamofireImage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A2F57EF82936CB96005F0984 /* Project object */;
+}
