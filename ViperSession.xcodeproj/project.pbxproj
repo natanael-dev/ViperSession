@@ -27,6 +27,10 @@
 		A21D6D50293857860051E423 /* ViperSession.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A21D6D4F293857860051E423 /* ViperSession.jpeg */; };
 		A21D6D5329385ADA0051E423 /* Detail.png in Resources */ = {isa = PBXBuildFile; fileRef = A21D6D5129385ADA0051E423 /* Detail.png */; };
 		A21D6D5429385ADA0051E423 /* List.png in Resources */ = {isa = PBXBuildFile; fileRef = A21D6D5229385ADA0051E423 /* List.png */; };
+		A21D6D5929385C0E0051E423 /* List-Dark.png in Resources */ = {isa = PBXBuildFile; fileRef = A21D6D5529385C0E0051E423 /* List-Dark.png */; };
+		A21D6D5A29385C0E0051E423 /* Detail-Dark.png in Resources */ = {isa = PBXBuildFile; fileRef = A21D6D5629385C0E0051E423 /* Detail-Dark.png */; };
+		A21D6D5B29385C0E0051E423 /* Indicator-dark.png in Resources */ = {isa = PBXBuildFile; fileRef = A21D6D5729385C0E0051E423 /* Indicator-dark.png */; };
+		A21D6D5C29385C0E0051E423 /* Indicator.png in Resources */ = {isa = PBXBuildFile; fileRef = A21D6D5829385C0E0051E423 /* Indicator.png */; };
 		A2F57F042936CB96005F0984 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F57F032936CB96005F0984 /* AppDelegate.swift */; };
 		A2F57F062936CB96005F0984 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F57F052936CB96005F0984 /* SceneDelegate.swift */; };
 		A2F57F0B2936CB96005F0984 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2F57F092936CB96005F0984 /* Main.storyboard */; };
@@ -58,6 +62,10 @@
 		A21D6D4F293857860051E423 /* ViperSession.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ViperSession.jpeg; sourceTree = "<group>"; };
 		A21D6D5129385ADA0051E423 /* Detail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Detail.png; sourceTree = "<group>"; };
 		A21D6D5229385ADA0051E423 /* List.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = List.png; sourceTree = "<group>"; };
+		A21D6D5529385C0E0051E423 /* List-Dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "List-Dark.png"; sourceTree = "<group>"; };
+		A21D6D5629385C0E0051E423 /* Detail-Dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Detail-Dark.png"; sourceTree = "<group>"; };
+		A21D6D5729385C0E0051E423 /* Indicator-dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Indicator-dark.png"; sourceTree = "<group>"; };
+		A21D6D5829385C0E0051E423 /* Indicator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Indicator.png; sourceTree = "<group>"; };
 		A2F57F002936CB96005F0984 /* ViperSession.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViperSession.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2F57F032936CB96005F0984 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2F57F052936CB96005F0984 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -129,6 +137,10 @@
 		A21D6D38293850AA0051E423 /* Tools+Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A21D6D5629385C0E0051E423 /* Detail-Dark.png */,
+				A21D6D5729385C0E0051E423 /* Indicator-dark.png */,
+				A21D6D5829385C0E0051E423 /* Indicator.png */,
+				A21D6D5529385C0E0051E423 /* List-Dark.png */,
 				A21D6D5129385ADA0051E423 /* Detail.png */,
 				A21D6D5229385ADA0051E423 /* List.png */,
 				A21D6D4F293857860051E423 /* ViperSession.jpeg */,
@@ -242,11 +254,15 @@
 				A21D6D42293850AA0051E423 /* ListViewController.xib in Resources */,
 				A21D6D47293850AA0051E423 /* PokemonTableViewCell.xib in Resources */,
 				A21D6D41293850AA0051E423 /* DetailViewController.xib in Resources */,
+				A21D6D5A29385C0E0051E423 /* Detail-Dark.png in Resources */,
+				A21D6D5C29385C0E0051E423 /* Indicator.png in Resources */,
 				A2F57F0D2936CB98005F0984 /* Assets.xcassets in Resources */,
 				A2F57F0B2936CB96005F0984 /* Main.storyboard in Resources */,
 				A21D6D5329385ADA0051E423 /* Detail.png in Resources */,
+				A21D6D5929385C0E0051E423 /* List-Dark.png in Resources */,
 				A21D6D5429385ADA0051E423 /* List.png in Resources */,
 				A21D6D4B293850AA0051E423 /* pokeball.json in Resources */,
+				A21D6D5B29385C0E0051E423 /* Indicator-dark.png in Resources */,
 				A21D6D50293857860051E423 /* ViperSession.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
